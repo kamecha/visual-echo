@@ -1,5 +1,8 @@
 import { 
 	Denops, 
+	ensureNumber,
+	mapping,
+	Mode,
 } from "./deps.ts";
 
 export async function main(denops: Denops): Promise<void> {
